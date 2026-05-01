@@ -1,17 +1,35 @@
-# React + Vite
+# Jala Chakra – AI-Based River Linking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A premium SaaS-style frontend experience for **Jala Chakra**, an AI platform for intelligent river-linking decisions, flood mitigation, and drought resilience.
 
-Currently, two official plugins are available:
+## Tech Stack
+- React + Vite
+- Tailwind CSS v4
+- Framer Motion
+- Recharts
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Run Locally
+```bash
+npm install
+npm run dev
+```
 
-## React Compiler
+## Production Build
+```bash
+npm run build
+npm run preview
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-"# jalachakra" 
+## Deploy to Vercel
+1. Push this repository to GitHub.
+2. In Vercel, click **Add New → Project** and import the repository.
+3. Keep defaults:
+   - Framework Preset: **Vite**
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+4. Click **Deploy**.
+5. For CLI deployment:
+   ```bash
+   npm i -g vercel
+   vercel
+   ```
