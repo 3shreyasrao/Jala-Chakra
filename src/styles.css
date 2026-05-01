@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+:root { font-family: 'Inter', system-ui, sans-serif; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #020617; }
+
+.glass-card {
+  background: linear-gradient(140deg, rgba(15, 23, 42, 0.72), rgba(15, 23, 42, 0.4));
+  border: 1px solid rgba(255,255,255,0.12);
+  backdrop-filter: blur(16px);
+  border-radius: 1.2rem;
+  box-shadow: 0 14px 38px rgba(15, 23, 42, 0.35);
+}
